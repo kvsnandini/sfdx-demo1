@@ -1,0 +1,36 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+#ignore WarehouseCalloutService related components
+force-app\main\default\classes\WarehouseCalloutService.cls
+
+#ignore MaintenanceRequestTest related components
+force-app\main\default\classes\MaintenanceRequestTest.cls
+
+#ignore MaintenanceRequestHelper related components
+force-app\main\default\classes\MaintenanceRequestHelper.cls 
+
+#ignore WarehouseSyncScheduleTest related components
+force-app\main\default\classes\WarehouseSyncScheduleTest.cls
+
+#ignore InstallationTests related components
+force-app\main\default\classes\InstallationTests.cls
+
+#ignore WarehouseSyncSchedule related components
+force-app\main\default\classes\WarehouseSyncSchedule.cls  
+
+#ignore MaintenanceRequest related components
+force-app\main\default\triggers\MaintenanceRequest.trigger
+
+#ignore WarehouseCalloutServiceTest related components
+force-app\main\default\classes\WarehouseCalloutServiceTest.cls
